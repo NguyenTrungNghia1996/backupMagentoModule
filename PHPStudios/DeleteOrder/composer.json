@@ -1,0 +1,29 @@
+{
+    "name": "phpstudios/deleteorder",
+    "description": "Delete Order extension for Magento 2 has been developed by the product team at PHP Studios. ",
+    "require": {
+        "php": ">=7.1.0",
+        "phpstudios/core": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Support",
+            "email": "techsupport@phpstudios.com",
+            "homepage": "https://www.phpstudios.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPStudios\\DeleteOrder\\": ""
+        }
+    }
+}

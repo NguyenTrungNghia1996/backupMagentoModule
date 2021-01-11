@@ -1,0 +1,26 @@
+{
+    "name": "report/module-order",
+    "description": "",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "nghiabgt@gmail.com",
+            "name": "Ngh\u0129a Nguy\u1ec5n Trung"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Report\\Order\\": ""
+        }
+    }
+}
